@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -13,7 +12,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'MA IxDIA - Masters Program for Interaction Design and Interactive Art',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,28 +24,24 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Apply Today',
+        href: 'https://www.calstate.edu/apply/graduate',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:ballpen',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: 'https://placehold.co/600x400', alt: 'AstroWind Hero Image' }}
+
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      IxDIA - Master of Arts Degree in 
+      <span class="text-accent dark:text-white highlight"> Interaction Design and Interactive Art</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+        <span class="font-semibold">(MA IxDIA)</span> The Master of Arts in Interaction Design and Interactive Art (MA IxDIA) is an interdisciplinary program dedicated to crafting interactive applications and objects, enhancing user experiences. This program offers studio and fabrication spaces, courses in emerging methods, interaction design, contemporary art, theory, along with access to research support and mentorship. </span>
     </Fragment>
   </Hero>
 
@@ -59,44 +54,32 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="What to expect"
+    subtitle="Join our program for a transformative 2 years "
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Teamwork And Project-Oriented',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Our program emphasizes industry skills, teamwork, and project-oriented goals, teaching students to adapt quickly to new environments while balancing enduring creative processes with transient technology in this rapidly evolving field.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'California State University, East Bay',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
+          'Enjoy a small student-teacher ratio and a dedicated interdisciplinary faculty, 24-hour access to studios, a maker space with a 60-watt laser cutter, 3D printers, and CNC milling machines, a bronze foundry, and a full metal and wood shop.',
+        icon: 'tabler:school',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Pathways For Non-Majors',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+        'We offer a 3-year pathway for non-majors, including a year of preliminary courses, for those passionate about interactive design but lacking prior experience.',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'STEM Designation (CIP 09.0702)',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Our program is a STEM Designated (CIP 09.0702) program and qualifies for the 24-month <em>Optional Practical Training Extension</em> for STEM Students (STEM OPT) extension.',
+        icon: 'tabler:ad-2',
       },
     ]}
   />
@@ -105,8 +88,8 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="M.A. IxDIA"
+    title="Fun Meets Functionality!"
     items={[
       {
         title: 'Built on top of Astro 4.0',
@@ -130,8 +113,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Impressive Ideas, Innovative Results</h3>
+      Creativity, innovation, critical and design thinking about the intersection of technology and humanity are values that are hard-coded into today’s forward thinkers. See yourself contributing your skills with others towards crafting ideas and making new interactive content development at CSU East Bay’s Master of Arts in Interaction Design and Interactive Art Program.
     </Fragment>
 
     <Fragment slot="bg">
